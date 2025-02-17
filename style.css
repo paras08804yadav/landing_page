@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid rgb(141, 137, 137);
+}
+
+.headd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.headd .logo img {
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.headd .logo {
+    margin-left: 2rem;
+}
+
+.headd .contact {
+    font-size: large;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.Banners {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 1rem;
+    border-bottom: 3px solid rgb(141, 137, 137);
+}
+
+.banner {
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.testimonials {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.testimonials img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: black;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+.Disclaimer {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 1rem;
+    border-top: 3px solid rgb(141, 137, 137);
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.Disclaimer p {
+    margin: 0;
+}
+
+footer {
+    background-color: #222;
+    color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-top: 3px solid rgb(141, 137, 137);
+}
+
+.footer-contact p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.footer-contact p:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Responsive Styling */
+
+/* Mobile (up to 768px) */
+@media (max-width: 768px) {
+    .headd {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .headd .logo {
+        margin-left: 0;
+    }
+
+    .headd .contact {
+        margin-right: 0;
+        margin-top: 0.5rem;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        max-width: 100%; /* Takes full width on smaller screens */
+    }
+
+    .Banners {
+        padding: 0.5rem;
+    }
+}
+
+/* Desktop (1024px and above) */
+@media (min-width: 1024px) {
+    .headd .logo img {
+        width: 10rem; /* Slightly larger for desktop */
+    }
+
+    h2 {
+        font-size: 2rem; /* Larger heading size for desktop */
+    }
+
+    .footer-contact {
+        max-width: 800px; /* More space for footer on desktop */
+    }
+}
