@@ -128,18 +128,17 @@ header {
     padding: 0.5rem;
 }
 
-/* Responsive Styling */
 
-/* Mobile (up to 768px) */
 @media (max-width: 768px) {
     .headd {
-        flex-direction: row; /* Ensures the logo and contact are in a row */
-        justify-content: space-between; /* Spreads logo and contact */
+        flex-direction: row; 
+        justify-content: space-between; 
         padding: 1rem;
     }
 
     .headd .logo img {
-        width: 4rem; /* Smaller logo for mobile */
+        width: 7rem; /* Smaller logo for mobile */
+        height: 7rem;
     }
 
     .headd .contact {
