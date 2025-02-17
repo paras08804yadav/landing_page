@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     font-family: 'Poppins', sans-serif; /* Modern font for better readability */
 }
 
-/* General Paragraph Reset */
 p {
     padding: 0;
     margin: 0;
