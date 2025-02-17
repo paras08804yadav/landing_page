@@ -110,7 +110,7 @@ header {
     font-weight: lighter;
     border-bottom: 3px solid rgb(141, 137, 137);
     padding: 1rem;
-    text-align: right;
+    text-align: left;
 }
 
 .footer-contact {
