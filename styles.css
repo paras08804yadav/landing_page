@@ -52,7 +52,6 @@ header {
     gap: 1.5rem;
     text-align: center;
     background-color: #ffffff;
-    border-bottom: 3px solid rgb(141, 137, 137);
 }
 
 .banner {
@@ -82,11 +81,8 @@ header {
     height: auto;
     object-fit: cover;
     border-radius: 8px;
-    max-height: 400px;
+    max-height: 400px; /* Same max height as the image */
 }
-
-
-
 
 .testimonials {
     background-color: #ffffff;
@@ -96,7 +92,6 @@ header {
     justify-content: space-evenly;
     padding: 2rem;
     flex-wrap: wrap;
-    border-bottom: 3px solid rgb(141, 137, 137);
     gap: 1rem;
 }
 
