@@ -345,7 +345,7 @@ header {
 
 }
 
-@media (min-width: 850px) and (max-width: 1024px) {
+@media (min-width: 850px) and (max-width: 1023px) {
     
     .headd .logo img {
         width: 17rem;
@@ -420,19 +420,22 @@ header {
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
     .headd .logo img {
-        width: 10rem;
+        width: 20rem;
     }
 
     .headd .contact a {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     .banner img {
         max-width: 100%;
     }
 
+    .banner video{
+        max-width: 100%;
+    }
     .footer-contact {
         display: flex;
         flex-direction: column;
@@ -446,14 +449,14 @@ header {
     }
     
     .contact-heading {
-        font-size: 1.5rem; /* Larger font size for 'Contact Us' */
+        font-size: 2.7rem; /* Larger font size for 'Contact Us' */
         font-weight: 800; /* Make the heading bold */
         margin-bottom: 2rem; /* More space between the heading and contact info */
     }
     
     .contact-info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         gap: 1.5rem; 
         align-items: center;
@@ -467,16 +470,17 @@ header {
         text-decoration: none;
         font-size: 1.1rem;
         font-weight: bold;
+        margin-bottom: 2rem;
     }
     
     .contact-item i {
-        font-size: 2rem; /* Icon size */
-        margin-bottom: 0.5rem; /* Space between icon and text */
+        font-size: 3rem; /* Icon size */
+        margin-bottom: 1rem; /* Space between icon and text */
     }
     
     .contact-item span {
-        font-size: 1rem;
-        margin-top: 0.5rem; /* Space between the icon and text */
+        font-size: 2rem;
+        margin-top: 1rem; /* Space between the icon and text */
     }
     
     .contact-item:hover {
