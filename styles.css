@@ -9,7 +9,7 @@ body {
     padding: 0;
     background-color: #121212;
     color: white;
-    font-family: 'Poppins', sans-serif; /* Modern font for better readability */
+    font-family: 'Poppins', sans-serif; 
 }
 
 p {
@@ -21,11 +21,9 @@ p {
 header {
     text-align: center;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: white;
     color: #000000;
     border-bottom: 3px solid rgb(141, 137, 137);
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 .headd {
@@ -46,6 +44,7 @@ header {
     font-size: 1rem;
     font-weight: bold;
     text-align: right;
+    text-decoration: none;
 }
 
 .Banners {
@@ -137,12 +136,19 @@ header {
     }
 
     .headd .logo img {
-        width: 7rem; /* Smaller logo for mobile */
+        width: 7rem;
         height: 7rem;
     }
 
     .headd .contact {
-        font-size: 0.9rem; /* Smaller text for mobile */
+        font-size: 0.9rem;
+    }
+
+    a{
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
     }
 
     .testimonials {
@@ -167,7 +173,8 @@ header {
     }
 }
 
-/* Desktop (1024px and above) */
+
+
 @media (min-width: 1024px) {
     .headd .logo img {
         width: 10rem;
