@@ -52,6 +52,8 @@ header {
     gap: 1.5rem;
     text-align: center;
     background-color: #ffffff;
+    border-bottom: 3px solid rgb(141, 137, 137);
+
 }
 
 .banner {
@@ -93,6 +95,7 @@ header {
     padding: 2rem;
     flex-wrap: wrap;
     gap: 1rem;
+    border-bottom: 3px solid rgb(141, 137, 137);
 }
 
 .testimonial {
