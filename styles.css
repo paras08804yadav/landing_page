@@ -48,25 +48,35 @@ header {
 }
 
 .Banners {
-    background-color: #ffffff;
-    padding: 2rem;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
     border-bottom: 3px solid rgb(141, 137, 137);
-    gap: 1rem;
 }
 
 .banner {
-    padding: 1.5rem;
-    color: #333;
-    font-size: larger;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
     background-color: #f8f8f8;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
+
+.banner img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
 
 .testimonials {
     background-color: #ffffff;
@@ -132,12 +142,12 @@ header {
     .headd {
         flex-direction: row; 
         justify-content: space-between; 
-        padding: 1rem;
+        padding: 0rem;
     }
 
     .headd .logo img {
-        width: 7rem;
-        height: 7rem;
+        width: 9rem;
+        height: 9rem;
     }
 
     .headd .contact {
@@ -159,10 +169,15 @@ header {
         max-width: 100%;
     }
 
-    .banner {
-        font-size: 1rem;
+    .Banners {
         padding: 1rem;
     }
+
+    .banner img {
+        width: 100%;
+        max-width: 100%;
+    }
+
 
     .footer-contact {
         padding: 1rem;
@@ -180,9 +195,12 @@ header {
         width: 10rem;
     }
 
-    .banner {
+    .Banners {
         padding: 2rem;
-        font-size: 1.25rem;
+    }
+
+    .banner img {
+        max-width: 100%;
     }
 
     .testimonial {
