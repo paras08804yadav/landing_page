@@ -22,7 +22,7 @@ a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: bigger;
+    font-size: 1.5rem;
 }
 
 header {
@@ -194,8 +194,6 @@ header {
         object-fit: fill; 
     }
 
-
-
     .footer-contact {
         display: flex;
         flex-direction: column;
@@ -254,14 +252,16 @@ header {
 
 
 
+
 @media (min-width: 1024px) {
+
+
 
     .headd .logo img {
         width: 10rem;
     }
 
     .headd .contact {
-        font-size: 0.9rem;
         padding-right: 1rem;
         text-decoration: none;
     }
